@@ -226,3 +226,16 @@ span.carousel-control-next-icon {
 .carousel-indicators {
     margin-bottom: -35px;
 }
+
+#footer {
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background-color: #0c3916;
+    transition: .3s;
+}
