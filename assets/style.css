@@ -84,7 +84,7 @@ html, body {
 }
 
 section#inicio {
-    background-image: url("./img/dev.sustentavel.webp");
+    background-image: url("./img/setup.dev.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -225,6 +225,10 @@ span.carousel-control-next-icon {
 
 .carousel-indicators {
     margin-bottom: -35px;
+}
+
+.card {
+    background-color: rgba(236, 236, 236, 0.596);
 }
 
 #footer {
