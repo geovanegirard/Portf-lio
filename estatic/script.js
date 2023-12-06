@@ -25,17 +25,17 @@ document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   btn.value = 'Sending...';
+   btn.value = 'Enviando...';
 
    const serviceID = 'default_service';
-   const templateID = 'service_dwjex4g';
+   const templateID = 'template_vg8h97k';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
+      btn.value = 'Enviar mensagem';
+      alert('Enviado!');
     }, (err) => {
-      btn.value = 'Send Email';
+      btn.value = 'Enviar mensagem';
       alert(JSON.stringify(err));
     });
 });

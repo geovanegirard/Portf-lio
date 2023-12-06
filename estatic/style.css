@@ -158,6 +158,20 @@ i.menu-mobile {
     background-color: #eff5ff;
 }
 
+span.carousel-control-prev-icon {
+    background-color: gray;
+    border-radius: 50%;
+}
+
+span.carousel-control-next-icon {
+    background-color: gray;
+    border-radius: 50%;
+}
+
+#icon_carousel {
+    background-color: gray;
+}
+
 .cv .cv-title {
     font-weight: 700;
     margin-top: 20px;
